@@ -1,6 +1,6 @@
-(function () {
+  const {EventEmitter} = require('./event-emitter.js');
 
-  window.whiteboard = new window.EventEmitter();
+  whiteboard = new EventEmitter();
 
   // Ultimately, the color of our stroke;
   var color;
@@ -17,7 +17,7 @@
     // Attach a click handler that will set our color variable to
     // the elements id, remove the selected class from all colors,
     // and then add the selected class to the clicked color.
-    el.addEventListener('click', function () {
+    el. addEventListener('click', function () {
         color = this.id;
         document.querySelector('.selected').classList.remove('selected');
         this.classList.add('selected');
@@ -113,4 +113,4 @@
 
   };
 
-})();
+  module.exports = {whiteboard:whiteboard};
