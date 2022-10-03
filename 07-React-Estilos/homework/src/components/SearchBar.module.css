@@ -1,0 +1,21 @@
+.div{
+    background-color: #e9ecef;
+}
+
+.input{
+    border-radius: 10px;
+}
+
+.btn{
+    font-weight: 500;
+    color:green;
+    background-color: #e9ecef;
+    border: 2px double green;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.btn:hover{
+    color: #000;
+    background-color: green;
+}

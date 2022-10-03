@@ -1,0 +1,5 @@
+.cards{
+    display:inline-flex;
+    background-color: #e9ecef;
+    border-radius: 10px;
+}
